@@ -38,7 +38,7 @@ gifAddition = (arr) =>{
   }
 }
 
-fetch('https://api.giphy.com/v1/gifs/trending?api_key=Oks2BSCHq8adUf0GBIeqg3AWBng0GkCZ&limit=5')
+fetch('https://api.giphy.com/v1/gifs/trending?api_key=Oks2BSCHq8adUf0GBIeqg3AWBng0GkCZ&limit=3')
   .then(response => {
       return response.json();
   })
